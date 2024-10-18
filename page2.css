@@ -1,0 +1,140 @@
+body {
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('back.png'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px;
+}
+.lista_tem h2{
+    margin: 20px;
+}
+.lista_tem ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    display: none;
+}
+
+.lista_tem li {
+    padding: 5px;
+    background: #ecf0f1;
+    border: 2px solid red;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+.toggle-checkbox{
+    margin-left:20px; ;
+}
+.toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.toggle-checkbox:checked + .toggle-button {
+    background-color: grey; 
+}
+.toggle-checkbox:checked + .toggle-button + .lista_tem ul {
+    display: block; 
+}
+
+.in_con img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.setup {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.wskazowki {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.Rodzaje {
+    margin: 20px; 
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin-bottom: 20px; 
+}
+
+.card-content {
+    display: flex; 
+    align-items: center; 
+}
+
+.description {
+    flex: 1; 
+    margin-right: 25px; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+}
+
+footer a {
+    margin: 0 10px;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

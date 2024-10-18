@@ -1,0 +1,230 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #E0F7FA; 
+    color: #263238; 
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background-image: url('back_tlo.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.toggle-checkbox {
+    display: none; 
+}
+
+.toggle-checkbox:checked + .toggle-button + .lista_tem {
+    display: block; 
+}
+
+.toggle-button {
+    position: fixed;
+    right: 4px;
+    top: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-button:hover {
+    background-color: grey;
+}
+
+@media (min-width: 1400px) {
+    body {
+        font-size: 20px;
+    }
+}
+.link_lab {
+    display: flex;
+    justify-content: center; 
+    gap: 150px; 
+    margin-top: 20px; 
+}
+@media (max-width: 1100px) {
+    .link_lab {
+        gap: 15px; 
+    }
+}
+
+.link_lab a {
+    text-decoration: none; 
+    color: #FFAB00; 
+    font-weight: bold; 
+}
+
+#text_woda{
+    background-color: rgb(201, 227, 229); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+h1, h2, h3 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.lista_tem{
+    position: fixed; 
+    top: 120px; 
+    background-color: white; 
+    border-radius: 20px; 
+    padding: 10px; 
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); 
+    max-width: 700px; 
+    display: none;
+}
+.lista_podpis{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.lista_tem a{
+    text-decoration: none;
+    color: #168b68;
+}
+
+header {
+    background-color: #00796B; 
+    color: #FFFFFF; 
+    padding: 30px;
+    border-bottom: 5px solid #004D40; 
+}
+.in_con {
+    max-width: 800px; 
+    max-height: 800px;
+    margin: 0 auto; 
+    overflow: hidden; }
+
+img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+
+.intro {
+    padding: 30px;
+    background-color: #B2EBF2;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#poczatek{
+    background-color:#263238;
+    color: #168b68;
+    padding: 20px;
+}
+
+.Rodzaje h3{
+    font-size: 25px;
+}
+
+/* .Rodzaje {
+    padding-left: 30%;
+    padding-right: 30%;
+    margin: 20px;
+} */
+@media (max-width: 2253px) {
+    .Rodzaje {
+        padding-left: 15%;
+        padding-right: 15%;
+        margin: 20px;
+    }
+    
+}
+@media (max-width: 1080px) {
+    .Rodzaje {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1400px) and (max-height: 400px) {
+    .Rodzaje {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 10px;
+    }
+    img {
+        width: 20%; /* Адаптивна ширина зображення */
+        height: auto; /* Автоматична висота */
+    }
+}
+
+
+#muchomor_red , #muchomor_green, #poganka, #cortinarius, #smuga ,#prawdziwek,#wlokniak,#zaslonak,#krowiak,#plucnica {
+    background-color: #FFFFFF; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    border: 5px solid #FFD54F;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.Rodzaje p {
+    text-align: center; 
+}
+
+
+#wskazowki_unik ,#wskazowki_zatr{
+background-color: rgb(201, 227, 229);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.wskazowki {
+    padding: 30px;
+    background-color: #FFD54F; 
+    border-radius: 10px;
+}
+
+.lista_tem{      
+    padding-left: 20px; 
+    margin: auto;
+    max-width: 200px;
+    text-align: left;
+}
+
+.wskazowki ol li strong{
+    color: #259164; 
+}
+
+.wskazowki h2{
+    color:#00796B; 
+}
+
+ol, ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #004D40; 
+    padding: 10px;
+    text-align: center;
+    border-top: 10px solid #FFFFFF;
+    padding: 15px;
+}
+
+footer a {
+    color: #FFAB00;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
