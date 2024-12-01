@@ -1,0 +1,172 @@
+/* Загальний стиль для всіх елементів */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Стилі для введення та опису */
+.intro header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.theme-button {
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .theme-button.active {
+    background-color: #007BFF;
+    color: #FFFFFF;
+  }
+h1, h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+#text_woda {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+#link_lab {
+    margin-top: 20px;
+}
+
+/* Список із змістом */
+.lista_tem {
+    margin: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.lista_tem h2 {
+    margin-top: 0;
+}
+
+.lista_tem ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista_tem li {
+    margin: 5px 0;
+}
+
+.lista_tem a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.lista_tem a:hover {
+    color: #388E3C;
+}
+
+/* Стилі для карток з грибами */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.description {
+    margin-bottom: 15px;
+}
+
+.setup {
+    font-weight: bold;
+}
+
+.in_con img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Кнопка для показу списку */
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toggle-button:hover {
+    background-color: #388E3C;
+}
+
+/* Стилі для порад */
+.wskazowki {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.wskazowki ol, .wskazowki ul {
+    margin-left: 20px;
+}
+
+/* Стилі для футера */
+#foot {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .in_con img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .card-content {
+        max-width: 100%;
+    }
+}
