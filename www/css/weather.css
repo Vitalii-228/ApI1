@@ -1,0 +1,73 @@
+/* Pogodynka Styles - Осіння тематика */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fffaf0; /* Світло-кремовий, як осінній фон */
+    color: #4b2e05; /* Теплий коричневий */
+    text-align: center;
+}
+
+h1 {
+    color: #a63a00; /* Темний помаранчевий */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+div {
+    margin: 10px 0;
+}
+
+#Pole_Input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #a0522d; /* Коричневий відтінок для обрамлення */
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fdf5e6; /* Світлий кремовий */
+    color: #4b2e05; /* Коричневий текст */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #d2691e; /* Осінній помаранчевий */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a0522d; /* Темніший помаранчевий */
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.block_pogody {
+    border: 1px solid #deb887; /* Світлий коричневий */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    background-color: #fff5ee; /* Кремово-білий */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.weather_time {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4b2e05; /* Темно-коричневий */
+}
+
+.weather_temp, .weather_temp_feel, .weather_description {
+    margin: 5px 0;
+    color: #8b4513; /* Осінній теплий коричневий */
+}
+
+.weather_icon {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
